@@ -1,8 +1,22 @@
-# React + Vite
+# Product Pagination App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application demonstrating product pagination using dummy data from an external API. The project showcases how to fetch and display products with pagination controls.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Product List**: Display a list of products fetched from an external API.
+- **Pagination**: Navigate through pages of products with previous and next buttons, as well as direct page selection.
+- **Responsive Design**: The application is designed to be responsive and user-friendly.
+
+## Technologies Used
+
+- **Frontend**: React.js
+- **API**: [DummyJSON](https://dummyjson.com/products) for fetching product data
+- **Styling**: CSS for styling the application
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (Node package manager, comes with Node.js)
